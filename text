@@ -1,0 +1,21 @@
+my-springboot-project
+│── src
+│   ├── main
+│   │   ├── java/com/example/project
+│   │   │   ├── config/          # Các cấu hình (Security, CORS, WebConfig, ...)
+│   │   │   ├── controller/      # Các Controller (điều hướng request)
+│   │   │   ├── dto/             # Các lớp Data Transfer Object (DTO)
+│   │   │   ├── entity/          # Các Entity tương ứng với bảng trong DB
+│   │   │   ├── repository/      # Các Repository xử lý truy vấn database
+│   │   │   ├── service/         # Các Service xử lý logic nghiệp vụ
+│   │   │   ├── exception/       # Các lớp xử lý Exception tùy chỉnh
+│   │   │   ├── util/            # Các tiện ích dùng chung
+│   │   │   ├── MySpringBootApplication.java  # Lớp main để chạy ứng dụng
+│   │   ├── resources/
+│   │   │   ├── static/          # Chứa các file tĩnh (CSS, JS, hình ảnh,...)
+│   │   │   ├── templates/       # Chứa các file giao diện nếu dùng Thymeleaf
+│   │   │   ├── application.properties  # Hoặc application.yml (cấu hình ứng dụng)
+│   │   │   ├── db/migration/    # Các script SQL Flyway (nếu dùng)
+│   ├── test                    # Chứa các lớp test
+│── pom.xml                      # File cấu hình Maven
+│── README.md                    # File mô tả project
