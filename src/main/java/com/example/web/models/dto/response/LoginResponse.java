@@ -1,4 +1,6 @@
-package com.example.web.dto;
+package com.example.web.models.dto.response;
+
+import com.example.web.models.dto.UserDTO;
 
 public class LoginResponse {
 
@@ -19,7 +21,3 @@ public class LoginResponse {
     }
 
 }
-
-/*
- * lop LoginResponse nay duoc dung de chua thong tin cua response dang nhap, bao gom token va thong tin cua user
- */

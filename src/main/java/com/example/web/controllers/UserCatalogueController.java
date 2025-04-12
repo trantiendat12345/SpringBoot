@@ -1,4 +1,4 @@
-package com.example.web.controller;
+package com.example.web.controllers;
 
 public class UserCatalogueController {
     

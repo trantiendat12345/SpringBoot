@@ -6,9 +6,10 @@ my-springboot-project
 │   │   │   ├── controller/      # Các Controller (điều hướng request)
 │   │   │   ├── dto/             # Các lớp Data Transfer Object (DTO)
 │   │   │   ├── entity/          # Các Entity tương ứng với bảng trong DB
-│   │   │   ├── repository/      # Các Repository xử lý truy vấn database
-│   │   │   ├── service/         # Các Service xử lý logic nghiệp vụ
 │   │   │   ├── exception/       # Các lớp xử lý Exception tùy chỉnh
+│   │   │   ├── repository/      # Các Repository xử lý truy vấn database
+|   |   |   ├── security         # Chứa logic xác thực JWT (JwtUtil, TokenService)
+│   │   │   ├── service/         # Các Service xử lý logic nghiệp vụ
 │   │   │   ├── util/            # Các tiện ích dùng chung
 │   │   │   ├── MySpringBootApplication.java  # Lớp main để chạy ứng dụng
 │   │   ├── resources/

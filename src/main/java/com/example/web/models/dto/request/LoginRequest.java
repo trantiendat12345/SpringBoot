@@ -1,4 +1,4 @@
-package com.example.web.dto;
+package com.example.web.models.dto.request;
 
 public class LoginRequest {
 
@@ -22,7 +22,3 @@ public class LoginRequest {
     }
 
 }
-
-/*
- * lop LoginRequest nay duoc dung de chua thong tin cua request dang nhap, bao gom email va password
- */

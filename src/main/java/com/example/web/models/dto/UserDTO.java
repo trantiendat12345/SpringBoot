@@ -1,4 +1,4 @@
-package com.example.web.dto;
+package com.example.web.models.dto;
 
 public class UserDTO {
 
@@ -10,16 +10,12 @@ public class UserDTO {
         this.email = email;
     }
 
-    public Long getId() {
-        return id;
-    }
-
     public String getEmail() {
         return email;
     }
 
-}
+    public Long getId() {
+        return id;
+    }
 
-/*
- * lop UserDto nay duoc dung de chua thong tin cua user, bao gom id va email
- */
+}
